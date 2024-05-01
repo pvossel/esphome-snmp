@@ -29,4 +29,4 @@ async def to_code(config):
     cg.add(var.set_contact(config["contact"]))
 
     await cg.register_component(var, config)
-    cg.add_library(r"https://github.com/aquaticus/Arduino_SNMP.git", "2.1.0")
+    cg.add_library(r"https://github.com/pvossel/Arduino_SNMP.git", "2.1.0")
